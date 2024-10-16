@@ -1,11 +1,10 @@
-import GermsGameComponent from "./components/germs/GermsGameComponent";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { routes } from "./router/routes";
+
+const router = createBrowserRouter(routes);
 
 const App = () => {
-  return (
-    <>
-      <GermsGameComponent />
-    </>
-  );
+  return <RouterProvider router={router} />;
 };
 
 export default App;
