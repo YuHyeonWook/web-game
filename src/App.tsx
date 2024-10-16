@@ -1,10 +1,10 @@
-import GameComponent from "./components/GameComponent";
+import GermsGameComponent from "./components/germs/GermsGameComponent";
 
 const App = () => {
   return (
-    <div>
-      <GameComponent />
-    </div>
+    <>
+      <GermsGameComponent />
+    </>
   );
 };
 

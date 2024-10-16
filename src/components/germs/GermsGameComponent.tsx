@@ -5,7 +5,7 @@ import Preloader from "./Preloader";
 import MainMenu from "./MainMen";
 import MainGame from "./Game";
 
-const GameComponent = () => {
+const GermsGameComponent = () => {
   useEffect(() => {
     const config = {
       type: Phaser.AUTO,
@@ -28,4 +28,4 @@ const GameComponent = () => {
   return <div id="phaser-game"></div>;
 };
 
-export default GameComponent;
+export default GermsGameComponent;
