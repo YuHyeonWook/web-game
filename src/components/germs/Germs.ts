@@ -7,10 +7,10 @@ export default class Germs extends Phaser.Physics.Arcade.Group {
     this.classType = Germ;
 
     this.germConfig = [
-      { animation: "germ1", speed: 60 },
-      { animation: "germ2", speed: 90 },
-      { animation: "germ3", speed: 120 },
-      { animation: "germ4", speed: 180 },
+      { animation: "germ1", speed: 90 },
+      { animation: "germ2", speed: 120 },
+      { animation: "germ3", speed: 180 },
+      { animation: "germ4", speed: 210 },
     ];
   }
 
