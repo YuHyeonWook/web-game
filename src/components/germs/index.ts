@@ -1,0 +1,9 @@
+// export * from "./GermsGameComponent";
+// export * from "./Boot";
+// export * from "./Preloader";
+// export * from "./Game";
+// export * from "./Germs";
+// export * from "./Germ";
+// export * from "./MainMen";
+// export * from "./Player";
+// export * from "./Pickups";
